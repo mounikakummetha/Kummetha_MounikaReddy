@@ -1,6 +1,7 @@
 Mounika Reddy Kummetha
 
-![profilephotomounika](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/0b50503b-b7c3-4b68-8946-48e9a9021365)
+![jpeg-optimizer_profilephotomounika](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/6d760042-2703-4914-84b1-823bcc56ad67)
+
 
 ## Contact Information
 - Email: mounikk1@umbc.edu

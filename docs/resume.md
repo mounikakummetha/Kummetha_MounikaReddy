@@ -1,6 +1,5 @@
 Mounika Reddy Kummetha
-
-![jpeg-optimizer_profilephotomounika](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/6d760042-2703-4914-84b1-823bcc56ad67)
+![jpeg-optimizer_profilephotomounika (1)](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/c13300ee-3dcb-4d8a-b24b-41d7b6ee1400)
 
 
 ## Contact Information

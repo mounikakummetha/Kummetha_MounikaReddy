@@ -1,5 +1,5 @@
-# Your Name
-!(![jpeg-optimizer_profilephotomounika (2)](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/3972b5ad-6357-4537-b1de-62613537702d)
+# Mounika Reddy Kummetha
+(![jpeg-optimizer_profilephotomounika (2)](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/3972b5ad-6357-4537-b1de-62613537702d)
 )
 
 

@@ -1,6 +1,7 @@
 Mounika Reddy Kummetha
 
-<img src="![profilephotomounika](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/06db01b2-8552-4662-b923-85cad4521d20).jpeg" width="200">
+![profilephotomounika](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/0b50503b-b7c3-4b68-8946-48e9a9021365)
+
 ## Contact Information
 - Email: mounikk1@umbc.edu
 - Phone: +1 (667)-369-9221

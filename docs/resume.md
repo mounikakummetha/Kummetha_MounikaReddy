@@ -1,6 +1,6 @@
 Mounika Reddy Kummetha
-(![WhatsApp Image 2023-09-23 at 10 38 51 AM](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/6c4065c0-9053-4318-b04e-697f4d441e44)
-)
+![WhatsApp Image 2023-09-23 at 10 38 51 AM](https://github.com/mounikakummetha/Kummetha_MounikaReddy/assets/113267997/6c4065c0-9053-4318-b04e-697f4d441e44)
+
 
 ## Contact Information
 - Email: mounikk1@umbc.edu
@@ -15,7 +15,7 @@ Experienced professional with expertise in Data Science. Skilled in C, Python, a
   - UMBC
   - Graduation Date: 05/2024
 
-- **Bachelor of Science in Electronics and Communications Engineering **
+- **Bachelor of Science in Electronics and Communications Engineering**
   - Reva University
   - Graduation Date: 06/2022
 

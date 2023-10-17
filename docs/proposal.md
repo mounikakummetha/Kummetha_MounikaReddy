@@ -1,44 +1,50 @@
-# Predicting Customer Churn for a Telecom Company
-**Author:** Dr. Chaojie (Jay) Wang
+# Personalized Recipe Recommender System
 
-**GitHub Profile:** [GitHub Profile Link](https://github.com/mounikakummetha/UMBC-DATA606-FALL2023-MONDAY)
+**Prepared for UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang**  
+**Author**: Mounika Reddy Kummetha  
+**GitHub Profile**: https://github.com/mounikakummetha/UMBC-DATA606-FALL2023-MONDAY 
+
+
+---
 
 ## Background
+
 ### What is it about?
-This project aims to predict customer churn for a telecommunications company, specifically understanding which customers are at risk of leaving the company's services.
+The project aims to recommend personalized recipes to users based on their dietary preferences, past ratings, and ingredient availability.
 
 ### Why does it matter?
-Customer churn is a critical issue in the telecom industry, as retaining customers is often more cost-effective than acquiring new ones. Predicting churn allows the company to take proactive steps to retain customers.
+With the rise of health consciousness and diverse dietary needs, a personalized recipe recommendation can help users find the best recipes that align with their preferences and health requirements.
 
-### Research Questions
-- Can we accurately predict which customers are likely to churn?
-- What are the key factors influencing customer churn in the telecom industry?
+### Research Questions:
+- Can we provide accurate recipe recommendations based on user preferences?
+- How do different ingredients and user ratings influence recipe recommendations?
+
+---
 
 ## Data
-### Data Sources
-We will use the "Telco Customer Churn" dataset from Kaggle. [Dataset Link](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-### Data Size
-The dataset is approximately 1 MB in size.
+### Data Sources:
+[Kaggle's Food.com Recipes and Interactions dataset](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions).
 
-### Data Shape
-It contains around 7,000 rows and 21 columns.
+### Data Attributes:
+- **Data Size**: ~500 MB
+- **Data Shape**: ~230,000 recipes and 1 million interactions
+- **Time Period**: Not time-bound
+- **Each Row Represents**: A recipe or a user interaction
 
-### Time Period
-The dataset does not have a specific time period; it's a snapshot of customer data.
+### Data Dictionary:
+| Column Name      | Data Type      | Definition                                                                 |
+|------------------|----------------|----------------------------------------------------------------------------|
+| Recipe name      | String         | Name of the recipe                                                         |
+| Ingredients      | String         | List of ingredients                                                        |
+| User ratings     | Integer        | Ratings given by users                                                     |
+| ...              | ...            | ...                                                                        |
 
-### What does each row represent?
-Each row represents a customer of the telecommunications company.
+**Note**: Potential values for `dietLabel` could be Vegan, Vegetarian, Gluten-Free, etc.
 
-### Data Dictionary
-- **Columns:** Various customer attributes, such as tenure, contract type, monthly charges, etc.
-- **Data Types:** Numeric and categorical.
-- **Definition:** Descriptions of each attribute.
-- **Potential Values:** Categories and ranges for categorical variables.
+- **Target/Label**: User Ratings
+- **Features/Predictors**: Ingredients, Dietary Labels, etc.
 
-### Target/Label
-The target variable will be "Churn," which indicates whether a customer churned or not.
 
-### Features/Predictors
-Other columns, such as tenure, contract type, monthly charges, etc., will be selected as features for the ML models.
+
 

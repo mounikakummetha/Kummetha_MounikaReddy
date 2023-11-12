@@ -57,9 +57,9 @@ The dataset collection for this project is focused on recipe and user interactio
   - `PP_users.csv`: Each row depicts a user profile, including their preferences and dietary information.
   - `ingr_map.pkl`: Each row corresponds to a specific ingredient and its standardized form.
 
-  ### Data Dictionary for Recipe Recommender System Dataset
+### Data Dictionary for Recipe Recommender System Dataset
 
-## I. RAW_recipes.csv
+#### I. RAW_recipes.csv
 - **Purpose:** Provides comprehensive information about each recipe, including ingredients, cooking steps, and nutritional details.
 - **Columns:**
   - **I. recipe_id**
@@ -111,7 +111,7 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** Number of ingredients in the recipe.
     - **Potential Values:** Range from 1 to 43
 
-## II. RAW_interactions.csv
+#### II. RAW_interactions.csv
 - **Purpose:** Captures user interactions with recipes, providing insights into user preferences and behavior.
 - **Columns:**
   - **I. user_id**
@@ -135,7 +135,7 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** User's review or comment on the recipe.
     - **Potential Values:** Textual content, varies in length
 
-## III. PP_recipes.csv
+#### III. PP_recipes.csv
 - **Purpose:** Contains preprocessed recipe data, optimized for analysis and model training.
 - **Columns:** (Adjusted from RAW_recipes.csv for preprocessing)
   - **I. recipe_id**
@@ -151,7 +151,7 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** Time required to prepare and cook the recipe, adjusted if necessary during preprocessing.
     - **Potential Values:** Adjusted range based on preprocessing
 
-## IV. PP_users.csv
+#### IV. PP_users.csv
 - **Purpose:** Includes user profile data, essential for understanding user preferences and dietary restrictions.
 - **Columns:**
   - **I. user_id**
@@ -179,7 +179,7 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** Total count of reviews written by the user.
     - **Potential Values:** Range specific to dataset
 
-## V. interactions_train.csv, interactions_test.csv, interactions_validation.csv
+#### V. interactions_train.csv, interactions_test.csv, interactions_validation.csv
 - **Purpose:** These datasets are segmented for model training, testing, and validation, containing user interactions for different phases.
 - **Columns:** (Similar to RAW_interactions.csv)
   - **I. user_id**
@@ -203,7 +203,7 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** User's review or comment on the recipe, potentially used for sentiment analysis or additional features.
     - **Potential Values:** Textual content, varies in length
 
-## VI. ingr_map.pkl
+#### VI. ingr_map.pkl
 - **Purpose:** Aids in standardizing ingredients across the datasets, ensuring data uniformity.
 - **Columns:**
   - **I. ingredient_id**

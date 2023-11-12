@@ -180,3 +180,17 @@ The dataset collection for this project is focused on recipe and user interactio
     - **Definition:** Standardized form of the ingredient name.
     - **Potential Values:** Standardized ingredient names
 
+# Target/Label in ML Model
+The primary target for the machine learning models in this project is the user ratings from the interactions datasets. These ratings provide a quantitative measure of user preferences and satisfaction, making them a crucial factor in developing an effective recipe recommendation system.
+
+# Features/Predictors for ML Models
+Key features and predictors that will be used in the machine learning models for this project include:
+
+- **Ingredients:** The ingredients listed in each recipe, which are essential to match recipes with user preferences and dietary restrictions.
+- **Recipe Categories:** Categories or tags associated with each recipe (such as cuisine type, meal type), which help in categorizing and recommending recipes based on user interests.
+- **User Dietary Restrictions:** Information from user profiles indicating any dietary restrictions or preferences, ensuring recommended recipes are suitable for individual users.
+- **Historical Interaction Data:** Past user interactions including ratings, reviews, and other forms of engagement with recipes. This data helps in understanding user preferences and improving the accuracy of the recommendation system.
+
+
+
+

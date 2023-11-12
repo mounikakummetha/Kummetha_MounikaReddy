@@ -10,7 +10,7 @@ UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
 Mounika Reddy Kummetha
 
 ## Profiles and Presentations
-- **GitHub Profile:** [https://github.com/mounikakummetha]
+- **GitHub Profile:** https://github.com/mounikakummetha
 
 # About Dataset
 

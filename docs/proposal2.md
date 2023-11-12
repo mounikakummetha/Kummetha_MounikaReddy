@@ -12,7 +12,32 @@ Mounika Reddy Kummetha
 ## Profiles and Presentations
 - **GitHub Profile:** https://github.com/mounikakummetha
 
-# About Dataset
+## 2. Background
+
+### What is the Project about?
+
+The core objective of this project is to develop a **Personalized Recipe Recommender System** using data-driven techniques and machine learning models. This system is designed to suggest recipes to users based on their unique interactions, preferences, and dietary needs. Key aspects of user data being analyzed include:
+
+- **User Preferences and Dietary Restrictions (`PP_users.csv`):** Understanding individual user preferences, dietary restrictions, and cooking techniques to tailor recipe recommendations.
+- **User Interactions (`RAW_interactions.csv`, `interactions_train.csv`, `interactions_test.csv`, `interactions_validation.csv`):** Analyzing user engagement with different recipes, including ratings, reviews, and frequency of interactions, to understand user satisfaction and preferences.
+- **Recipe Characteristics (`RAW_recipes.csv`, `PP_recipes.csv`):** Utilizing detailed recipe information, such as ingredients, nutritional values, and preparation steps, to match recipes with user profiles and preferences.
+- **Ingredient Standardization (`ingr_map.pkl`):** Ensuring consistency in ingredient naming and usage across recipes, aiding in accurate recipe recommendation.
+
+### Why does it matter?
+
+- **Enhanced User Experience:** Leveraging actual user interaction data minimizes reliance on guesswork, providing a more accurate and personalized user experience.
+- **Dietary Management and Diversity:** The system facilitates dietary management by recommending recipes that align with users' dietary restrictions and preferences, promoting healthier and more diverse dietary choices.
+- **Data-Driven Culinary Insights:** Offers valuable insights into culinary trends and user behavior, allowing for a deeper understanding of user preferences and cooking habits.
+
+### What are your research questions?
+
+1. How can we effectively utilize user data, including preferences, interactions, and dietary profiles, to recommend recipes that precisely cater to individual tastes and dietary needs?
+2. Which machine learning models and algorithms are best suited for personalizing recipe recommendations based on user data?
+3. Can the system identify and recommend underexplored or new recipes that align with users' tastes and dietary preferences?
+4. Which factors (ingredients, nutrition, preparation time) most significantly influence user preferences and recipe ratings?
+
+
+# 3. About Dataset
 
 The dataset collection for this project is focused on recipe and user interaction data, sourced from "Food.com Recipes and User Interactions" on Kaggle. It features comprehensive information about recipes, user profiles, and interactions, aiming to facilitate the development of a personalized recipe recommender system.
 

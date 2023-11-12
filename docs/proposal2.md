@@ -1,3 +1,17 @@
+# 1.Title and Author
+
+## Project Title
+Personalized Recipe Recommender System
+
+## Prepared for
+UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
+
+## Author Name
+Mounika Reddy Kummetha
+
+## Profiles and Presentations
+- **GitHub Profile:** [https://github.com/mounikakummetha]
+
 # About Dataset
 
 The dataset collection for this project is focused on recipe and user interaction data, sourced from "Food.com Recipes and User Interactions" on Kaggle. It features comprehensive information about recipes, user profiles, and interactions, aiming to facilitate the development of a personalized recipe recommender system.

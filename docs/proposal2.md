@@ -3,7 +3,7 @@
 The dataset collection for this project is focused on recipe and user interaction data, sourced from "Food.com Recipes and User Interactions" on Kaggle. It features comprehensive information about recipes, user profiles, and interactions, aiming to facilitate the development of a personalized recipe recommender system.
 
 - **Data sources:** [Food.com Recipes and User Interactions on Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
-- **Data size:** (Specify the combined size of all datasets, e.g., "XX MB")
+- **Data size:** (Specify the combined size of all datasets, e.g., "104.59 MB")
 - **Data shape:** The collective datasets contain over (total number of rows across all datasets) rows and vary in the number of columns:
   - `RAW_recipes.csv` - 231637 rows, 12 columns
   - `RAW_interactions.csv` - (Number of rows), 5 columns

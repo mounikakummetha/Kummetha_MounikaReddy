@@ -1,71 +1,130 @@
-## 3. Data
+# 3. Data Dictionary for Recipe Recommender System Dataset
 
-### Data Sources, Descriptions and Data Dictionary:
-
-#### 1. RAW_recipes.csv:
+## I. RAW_recipes.csv
 - **Purpose:** Provides comprehensive information about each recipe, including ingredients, cooking steps, and nutritional details.
 - **Columns:**
-  - `recipe_id`: Integer. Unique identifier for each recipe.
-  - `name`: String. The title of the recipe.
-  - `minutes`: Integer. Time required to prepare and cook the recipe.
-  - `contributor_id`: Integer. ID of the user who contributed the recipe.
-  - `submitted`: Date. The date when the recipe was submitted.
-  - `tags`: String. Categorizing tags for the recipe (e.g., "vegan").
-  - `nutrition`: String. Nutritional information of the recipe.
-  - `n_steps`: Integer. Number of steps in the recipe.
-  - `steps`: String. Detailed cooking instructions.
-  - `description`: String. A brief description of the recipe.
-  - `ingredients`: String. List of ingredients used in the recipe.
-  - `n_ingredients`: Integer. Number of ingredients in the recipe.
+  - **I. recipe_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each recipe.
+    - **Potential Values:** Range from 38 to 537716
+  - **II. name**
+    - **Dtype:** Categorical (String)
+    - **Definition:** The title of the recipe.
+    - **Potential Values:** 231637 unique values
+  - **III. minutes**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Time required to prepare and cook the recipe.
+    - **Potential Values:** Range from 0 to 2147483647
+  - **IV. contributor_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** ID of the user who contributed the recipe.
+    - **Potential Values:** Range from 1530 to 2002312794
+  - **V. submitted**
+    - **Dtype:** Categorical (Date)
+    - **Definition:** The date when the recipe was submitted.
+    - **Potential Values:** Dates ranging from 1999 to 2018
+  - **VI. tags**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Categorizing tags for the recipe (e.g., "vegan").
+    - **Potential Values:** 13124 unique values
+  - **VII. nutrition**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Nutritional information of the recipe.
+    - **Potential Values:** String representation of nutritional facts
+  - **VIII. n_steps**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Number of steps in the recipe.
+    - **Potential Values:** Range from 0 to 145
+  - **IX. steps**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Detailed cooking instructions.
+    - **Potential Values:** String containing cooking steps
+  - **X. description**
+    - **Dtype:** Categorical (String)
+    - **Definition:** A brief description of the recipe.
+    - **Potential Values:** Textual descriptions, varying in length
+  - **XI. ingredients**
+    - **Dtype:** Categorical (String)
+    - **Definition:** List of ingredients used in the recipe.
+    - **Potential Values:** Array of ingredients names
+  - **XII. n_ingredients**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Number of ingredients in the recipe.
+    - **Potential Values:** Range from 1 to 43
 
-#### 2. RAW_interactions.csv:
+## II. RAW_interactions.csv
 - **Purpose:** Captures user interactions with recipes, providing insights into user preferences and behavior.
 - **Columns:**
-  - `user_id`: Integer. Unique identifier for each user.
-  - `recipe_id`: Integer. Identifier for the interacted recipe.
-  - `date`: Date. The date of the interaction.
-  - `rating`: Integer. User-given rating to the recipe.
-  - `review`: String. User's review or comment on the recipe.
+  - **I. user_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each user.
+    - **Potential Values:** Range specific to dataset
+  - **II. recipe_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Identifier for the interacted recipe.
+    - **Potential Values:** Corresponds to recipe_id in RAW_recipes.csv
+  - **III. date**
+    - **Dtype:** Categorical (Date)
+    - **Definition:** The date of the interaction.
+    - **Potential Values:** Date range specific to dataset
+  - **IV. rating**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** User-given rating to the recipe.
+    - **Potential Values:** Typically 1 to 5
+  - **V. review**
+    - **Dtype:** Categorical (String)
+    - **Definition:** User's review or comment on the recipe.
+    - **Potential Values:** Textual content, varies in length
 
-#### 3. PP_recipes.csv:
+## III. PP_recipes.csv
 - **Purpose:** Contains preprocessed recipe data, optimized for analysis and model training.
-- **Columns:** (Similar to `RAW_recipes.csv`)
+- **Columns:** (Similar to RAW_recipes.csv, adjusted for preprocessing.)
 
-#### 4. PP_users.csv:
+## IV. PP_users.csv
 - **Purpose:** Includes user profile data, essential for understanding user preferences and dietary restrictions.
 - **Columns:**
-  - `user_id`: Integer. Unique identifier for each user.
-  - `techniques`: String. Cooking techniques used or preferred by the user.
-  - `items`: String. Ingredients or items used or preferred by the user.
-  - `n_items`: Integer. Number of items associated with the user.
-  - `ratings_count`: Integer. Total count of ratings given by the user.
-  - `reviews_count`: Integer. Total count of reviews written by the user.
+  - **I. user_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each user.
+    - **Potential Values:** Range specific to dataset
+  - **II. techniques**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Cooking techniques used or preferred by the user.
+    - **Potential Values:** Specific techniques listed
+  - **III. items**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Ingredients or items used or preferred by the user.
+    - **Potential Values:** Array of item names
+  - **IV. n_items**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Number of items associated with the user.
+    - **Potential Values:** Range specific to dataset
+  - **V. ratings_count**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Total count of ratings given by the user.
+    - **Potential Values:** Range specific to dataset
+  - **VI. reviews_count**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Total count of reviews written by the user.
+    - **Potential Values:** Range specific to dataset
 
-#### 5. interactions_train.csv, interactions_test.csv, interactions_validation.csv:
+## V. interactions_train.csv, interactions_test.csv, interactions_validation.csv
 - **Purpose:** These datasets are segmented for model training, testing, and validation, containing user interactions for different phases.
-- **Columns:** (Similar to `RAW_interactions.csv`)
+- **Columns:** (Similar to RAW_interactions.csv)
 
-#### 6. ingr_map.pkl:
+## VI. ingr_map.pkl
 - **Purpose:** Aids in standardizing ingredients across the datasets, ensuring data uniformity.
 - **Columns:**
-  - `ingredient_id`: Integer. Unique identifier for each ingredient.
-  - `ingredient_name`: String. Name of the ingredient.
-  - `mapped_ingredient`: String. Standardized form of the ingredient name.
+  - **I. ingredient_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each ingredient.
+    - **Potential Values:** Range specific to dataset
+  - **II. ingredient_name**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Name of the ingredient.
+    - **Potential Values:** Specific ingredient names
+  - **III. mapped_ingredient**
+    - **Dtype:** Categorical (String)
+    - **Definition:** Standardized form of the ingredient name.
+    - **Potential Values:** Standardized ingredient names
 
-### Data Size and Shape:
-- The size and shape of each dataset (number of rows and columns) will be determined through data exploration.
-
-### Time Period:
-- The datasets capture recipe data and user interactions from 2010 to 2020, offering a decade's worth of culinary trends and user preferences.
-
-### Row Representation:
-- `RAW_recipes.csv`, `PP_recipes.csv`: Each row represents a unique recipe.
-- `RAW_interactions.csv`, `interactions_*.csv`: Each row represents an individual user interaction.
-- `PP_users.csv`: Each row represents a user profile.
-- `ingr_map.pkl`: Each row represents an ingredient mapping.
-
-### Target/Label in ML Model:
-- The primary target for the machine learning models is user ratings from the interactions datasets.
-
-### Features/Predictors for ML Models:
-- Key features will include ingredients, recipe categories, user dietary restrictions, and historical interaction data.

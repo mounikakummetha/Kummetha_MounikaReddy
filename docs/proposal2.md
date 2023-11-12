@@ -57,7 +57,7 @@ The dataset collection for this project is focused on recipe and user interactio
   - `PP_users.csv`: Each row depicts a user profile, including their preferences and dietary information.
   - `ingr_map.pkl`: Each row corresponds to a specific ingredient and its standardized form.
 
-- **Data Dictionary for Recipe Recommender System Dataset**
+  ### Data Dictionary for Recipe Recommender System Dataset
 
 ## I. RAW_recipes.csv
 - **Purpose:** Provides comprehensive information about each recipe, including ingredients, cooking steps, and nutritional details.

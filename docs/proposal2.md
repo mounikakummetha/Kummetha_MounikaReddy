@@ -50,7 +50,7 @@ The dataset collection for this project is focused on recipe and user interactio
   - `PP_users.csv` - 25076 rows, 6 columns
   - `interactions_train.csv`, `interactions_test.csv`, `interactions_validation.csv` - 23176 rows, 5 columns each
   - `ingr_map.pkl` - (11659 rows), 3 columns
-- **Time period:** The datasets collectively cover a time span of (from 01/02/2000 to 01/02/2020), representing a comprehensive period of culinary trends and user interactions.
+- **Time period:** The datasets collectively cover a time span of (from 01/02/2010 to 01/02/2020), representing a comprehensive period of culinary trends and user interactions.
 - **What does each row represent?**
   - `RAW_recipes.csv` and `PP_recipes.csv`: Each row represents a unique recipe with detailed information.
   - `RAW_interactions.csv`, `interactions_train.csv`, `interactions_test.csv`, `interactions_validation.csv`: Each row signifies a user interaction with a recipe, such as rating or reviewing.

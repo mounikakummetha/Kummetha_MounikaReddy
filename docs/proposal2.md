@@ -1,4 +1,24 @@
-# 3. Data Dictionary for Recipe Recommender System Dataset
+# About Dataset
+
+The dataset collection for this project is focused on recipe and user interaction data, sourced from "Food.com Recipes and User Interactions" on Kaggle. It features comprehensive information about recipes, user profiles, and interactions, aiming to facilitate the development of a personalized recipe recommender system.
+
+- **Data sources:** [Food.com Recipes and User Interactions on Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+- **Data size:** (Specify the combined size of all datasets, e.g., "XX MB")
+- **Data shape:** The collective datasets contain over (total number of rows across all datasets) rows and vary in the number of columns:
+  - `RAW_recipes.csv` - 231637 rows, 12 columns
+  - `RAW_interactions.csv` - (Number of rows), 5 columns
+  - `PP_recipes.csv` - (Number of rows), (Number of columns)
+  - `PP_users.csv` - (Number of rows), 6 columns
+  - `interactions_train.csv`, `interactions_test.csv`, `interactions_validation.csv` - (Number of rows for each), 5 columns each
+  - `ingr_map.pkl` - (Number of rows), 3 columns
+- **Time period:** The datasets collectively cover a time span of (specify the range, e.g., "from 2000 to 2020"), representing a comprehensive period of culinary trends and user interactions.
+- **What does each row represent?**
+  - `RAW_recipes.csv` and `PP_recipes.csv`: Each row represents a unique recipe with detailed information.
+  - `RAW_interactions.csv`, `interactions_train.csv`, `interactions_test.csv`, `interactions_validation.csv`: Each row signifies a user interaction with a recipe, such as rating or reviewing.
+  - `PP_users.csv`: Each row depicts a user profile, including their preferences and dietary information.
+  - `ingr_map.pkl`: Each row corresponds to a specific ingredient and its standardized form.
+
+# . Data Dictionary for Recipe Recommender System Dataset
 
 ## I. RAW_recipes.csv
 - **Purpose:** Provides comprehensive information about each recipe, including ingredients, cooking steps, and nutritional details.

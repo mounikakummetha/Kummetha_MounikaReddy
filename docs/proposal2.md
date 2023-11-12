@@ -78,7 +78,19 @@
 
 ## III. PP_recipes.csv
 - **Purpose:** Contains preprocessed recipe data, optimized for analysis and model training.
-- **Columns:** (Similar to RAW_recipes.csv, adjusted for preprocessing.)
+- **Columns:** (Adjusted from RAW_recipes.csv for preprocessing)
+  - **I. recipe_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each preprocessed recipe.
+    - **Potential Values:** Range specific to dataset
+  - **II. name**
+    - **Dtype:** Categorical (String)
+    - **Definition:** The title of the recipe after preprocessing.
+    - **Potential Values:** Number of unique values may vary after preprocessing
+  - **III. minutes**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** Time required to prepare and cook the recipe, adjusted if necessary during preprocessing.
+    - **Potential Values:** Adjusted range based on preprocessing
 
 ## IV. PP_users.csv
 - **Purpose:** Includes user profile data, essential for understanding user preferences and dietary restrictions.
@@ -111,6 +123,26 @@
 ## V. interactions_train.csv, interactions_test.csv, interactions_validation.csv
 - **Purpose:** These datasets are segmented for model training, testing, and validation, containing user interactions for different phases.
 - **Columns:** (Similar to RAW_interactions.csv)
+  - **I. user_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Unique identifier for each user, consistent across training, testing, and validation sets.
+    - **Potential Values:** Range specific to dataset
+  - **II. recipe_id**
+    - **Dtype:** Categorical (Integer)
+    - **Definition:** Identifier for the interacted recipe, corresponding to preprocessed recipes in PP_recipes.csv.
+    - **Potential Values:** Range specific to dataset
+  - **III. date**
+    - **Dtype:** Categorical (Date)
+    - **Definition:** The date of the interaction, relevant for the specific phase (training, testing, or validation).
+    - **Potential Values:** Date range specific to each dataset
+  - **IV. rating**
+    - **Dtype:** Numerical (Integer)
+    - **Definition:** User-given rating to the recipe, used as a target variable in model training and evaluation.
+    - **Potential Values:** Typically 1 to 5
+  - **V. review**
+    - **Dtype:** Categorical (String)
+    - **Definition:** User's review or comment on the recipe, potentially used for sentiment analysis or additional features.
+    - **Potential Values:** Textual content, varies in length
 
 ## VI. ingr_map.pkl
 - **Purpose:** Aids in standardizing ingredients across the datasets, ensuring data uniformity.
